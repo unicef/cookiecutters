@@ -1,0 +1,23 @@
+include README.rst
+include CHANGES
+include LICENSE
+include MANIFEST.in
+include *.py
+
+recursive-include src/requirements *.pip
+recursive-include src/{{cookiecutter.package_name}} *
+
+
+exclude manage.py
+exclude Makefile
+exclude .isort.cfg
+exclude .flake8
+exclude pytest.ini
+exclude tox.ini
+
+recursive-exclude src *.in
+recursive-exclude tests *.coveragerc
+
+prune tests
+prune docs
+prune .github

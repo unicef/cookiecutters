@@ -1,0 +1,15 @@
+devpi-builder
+django-webtest
+factory_boy
+flake8
+isort
+isort
+pdbpp
+pip-tools
+pytest
+pytest-cov
+pytest-django
+pytest-echo
+pytest-pythonpath
+sphinx
+tox
